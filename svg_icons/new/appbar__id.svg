@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>appbar__id</title>
+    <desc>Created with Sketch.</desc>
+    <g id="appbar__id" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#191A1B" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="12" r="9"></circle>
+        <text id="id" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="10" font-weight="400" fill="#191A1B">
+            <tspan x="7.46" y="16">ID</tspan>
+        </text>
+    </g>
+</svg>

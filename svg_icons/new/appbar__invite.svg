@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>appbar__invite</title>
+    <desc>Created with Sketch.</desc>
+    <g id="appbar__invite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <rect id="Rectangle" stroke="#191A1B" x="5" y="5" width="14" height="14"></rect>
+        <polyline id="Path-4" stroke="#191A1B" points="5 9 12 12.5 19 9"></polyline>
+    </g>
+</svg>

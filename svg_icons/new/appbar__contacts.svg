@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>appbar__contacts</title>
+    <desc>Created with Sketch.</desc>
+    <g id="appbar__contacts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#191A1B" stroke-linecap="round" stroke-linejoin="round" x="4" y="4" width="16" height="16"></rect>
+        <rect id="Rectangle" fill="#191A1B" x="2" y="7" width="2" height="1"></rect>
+        <rect id="Rectangle-Copy" fill="#191A1B" x="2" y="12" width="2" height="1"></rect>
+        <rect id="Rectangle-Copy-2" fill="#191A1B" x="2" y="17" width="2" height="1"></rect>
+        <g id="bottom__nav-user-off" transform="translate(8.000000, 8.000000)" stroke="#191A1B" stroke-linejoin="round">
+            <path d="M8,9 L8,8 C8,6.8954305 7.1045695,6 6,6 L2,6 C0.8954305,6 0,6.8954305 0,8 L0,9" id="Path"></path>
+            <circle id="Oval" cx="4" cy="2" r="2"></circle>
+        </g>
+    </g>
+</svg>

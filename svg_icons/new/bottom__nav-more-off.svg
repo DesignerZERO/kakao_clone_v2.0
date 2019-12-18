@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>bottom__nav-more-off</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bottom__nav-more-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(4.000000, 11.000000)" id="Oval" stroke="#000000">
+            <circle cx="8" cy="1" r="1.5"></circle>
+            <circle cx="15" cy="1" r="1.5"></circle>
+            <circle cx="1" cy="1" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

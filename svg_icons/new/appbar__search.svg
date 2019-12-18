@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>appbar__search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="appbar__search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="bottom__nav-search-off" transform="translate(4.000000, 4.000000)" stroke="#000000">
+            <circle id="Oval" cx="7" cy="7" r="7"></circle>
+            <line x1="16" y1="16" x2="12" y2="12" id="Path"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>appbar__qrcode</title>
+    <desc>Created with Sketch.</desc>
+    <g id="appbar__qrcode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7.999,19 L5,19 L5,16 M19,16 L19,19 L16,19 M5,8 L5,5 L8,5 M16,5 L19,5 L19,8" id="Shape" stroke="#000000"></path>
+        <line x1="4" y1="12" x2="20" y2="12" id="Path-2" stroke="#000000"></line>
+    </g>
+</svg>

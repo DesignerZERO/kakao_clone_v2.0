@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Find | Kakao Clone</title>
+    <title>Friends | Kakao Clone</title>
   </head>
 
   <body>
@@ -37,63 +37,50 @@
     </div>
     <header class="appbar">
       <div class="appbar__column">
-        <h1 class="appbar__title">Find</h1>
+        <h1 class="appbar__title">Friends</h1>
       </div>
       <div class="appbar__column">
-        <span class="appbar__icons__search">
-          <img class="appbar__icons" src="svg_icons/new/appbar__search.svg" />
-        </span>
-        <span class="appbar__icons__more">
-          <img class="appbar__icons" src="svg_icons/new/appbar__settings.svg" />
-        </span>
+        <span class="appbar__icons__search"></span>
+        <img class="appbar__icons" src="svg_icons/new/appbar__search.svg" />
+        <span class="appbar__icons__more"></span>
+        <img class="appbar__icons" src="svg_icons/new/appbar__settings.svg" />
       </div>
     </header>
-    <main class="find">
-      <div class="find__header">
-        <ul class="find__header__list">
-          <li class="find__header__btn">
-            <img
-              class="find__header__qrcode"
-              src="svg_icons/new/appbar__qrcode.svg"
-            />
-            <span class="find__header__title">QR code</span>
-          </li>
-          <li class="find__header__btn">
-            <img
-              class="find__header__contact"
-              src="svg_icons/new/appbar__contacts.svg"
-            />
-            <span class="find__header__title">Add by Contacts</span>
-          </li>
-          <li class="find__header__btn">
-            <img class="find__header__id" src="svg_icons/new/appbar__id.svg" />
-            <span class="find__header__title">Add by ID</span>
-          </li>
-          <li class="find__header__btn">
-            <img
-              class="find__header__invite"
-              src="svg_icons/new/appbar__invite.svg"
-            />
-            <span class="find__header__title">Invite</span>
-          </li>
-        </ul>
-      </div>
-      <div class="find__recommended-friends">
-        <ul class="find__recommended-list">
-          <h5>Recommended Friends</h5>
-          <li class="find__recommended-items">
-            <div class="find__items__column">
-              <div class="chats__avatar g-avatar">
+    <main>
+      <div class="plus-friend">
+        <h5>Plus Friend</h5>
+        <ul class="friends__list">
+          <li class="friends__items">
+            <div class="friends__column">
+              <div class="friends__avatar g-avatar">
                 <img src="images/avatar_1.png" />
               </div>
-              <div class="find__contents">
+              <div class="freind__contents">
                 <span class="chats__username">김태영</span>
+                <span class="chats__preview">HTML 공부 중... 재밌졍</span>
               </div>
             </div>
             <div class="chats__items__column">
-              <div class="add-friend">
-                <img src="svg_icons/new/add_friend_24.svg" />
+              <span class="chats__timestamp">Yesterday</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="friends">
+        <h5>Friends</h5>
+        <ul class="friends__list">
+          <li class="friends__items">
+            <div class="friends__column">
+              <div class="friends__avatar g-avatar">
+                <img src="images/avatar_1.png" />
               </div>
+              <div class="freind__contents">
+                <span class="chats__username">김태영</span>
+                <span class="chats__preview">HTML 공부 중... 재밌졍</span>
+              </div>
+            </div>
+            <div class="chats__items__column">
+              <span class="chats__timestamp">Yesterday</span>
             </div>
           </li>
         </ul>
@@ -105,7 +92,7 @@
           <a href="friends.html">
             <img
               class="nav-user-off"
-              src="svg_icons/new/bottom__nav-user-off.svg"
+              src="svg_icons/new/bottom__nav-user-on.svg"
             />
           </a>
         </li>
@@ -121,7 +108,7 @@
           <a href="find.html">
             <img
               class="nav-search-off"
-              src="svg_icons/new/bottom__nav-search-on.svg"
+              src="svg_icons/new/bottom__nav-search-off.svg"
             />
           </a>
         </li>
