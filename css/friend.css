@@ -1,0 +1,36 @@
+.friends__items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.friends__items:hover {
+  background-color: #fbfcfd;
+}
+
+.friends__column {
+  display: flex;
+  height: 66px;
+  align-items: center;
+}
+.friends__avatar {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+.friend__content__name {
+  font-size: 15px;
+  line-height: 15px;
+  vertical-align: middle;
+  display: block;
+}
+.friend__content__preview {
+  font-size: 11px;
+  line-height: 11px;
+  vertical-align: middle;
+  color: #a3a4a5;
+}
+.friend__timestamp {
+  margin-top: -12px;
+  font-size: 11px;
+  color: #a3a4a5;
+}
