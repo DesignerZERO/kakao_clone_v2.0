@@ -18,21 +18,11 @@
         <span class="status-bar__clock">13:31</span>
       </div>
       <div class="status-bar__column">
-        <span class="status-bar__icons__alram">
-          <img src="svg_icons/alarm-24px.svg" />
-        </span>
-        <span class="status-bar__icons__mute">
-          <img src="svg_icons/volume_off-24px.svg" />
-        </span>
-        <span class="status-bar__icons__wifi">
-          <img src="svg_icons/wifi-24px.svg" />
-        </span>
-        <span class="status-bar__battery-percent">
-          100%
-        </span>
-        <span class="status-bar__icons__battery">
-          <img src="svg_icons/battery_full-24px.svg" />
-        </span>
+        <img src="svg_icons/alarm-24px.svg" />
+        <img src="svg_icons/volume_off-24px.svg" />
+        <img src="svg_icons/wifi-24px.svg" />
+        <span class="status-bar__battery-percent"> 100%</span>
+        <img src="svg_icons/battery_full-24px.svg" />
       </div>
     </div>
     <header class="appbar">
@@ -40,10 +30,12 @@
         <h1 class="appbar__title">Friends</h1>
       </div>
       <div class="appbar__column">
-        <span class="appbar__icons__search"></span>
-        <img class="appbar__icons" src="svg_icons/new/appbar__search.svg" />
-        <span class="appbar__icons__more"></span>
-        <img class="appbar__icons" src="svg_icons/new/appbar__settings.svg" />
+        <div class="appbar__icons__search">
+          <img class="appbar__icons" src="svg_icons/new/appbar__search.svg" />
+        </div>
+        <div class="appbar__icons__more">
+          <img class="appbar__icons" src="svg_icons/new/appbar__settings.svg" />
+        </div>
       </div>
     </header>
     <main>
@@ -97,6 +89,9 @@
           </a>
         </li>
         <li class="bottom-nav__list__items">
+          <div class="nav__badge">
+            8
+          </div>
           <a href="index.html">
             <img
               class="nav-chats-off"

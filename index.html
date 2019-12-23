@@ -1,114 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/1ab32f4c2f.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Chats | Kakao Clone</title>
-  </head>
 
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:31</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/1ab32f4c2f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Chats | Kakao Clone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span class="status-bar__clock">13:31</span>
+    </div>
+    <div class="status-bar__column">
+      <img src="svg_icons/alarm-24px.svg" />
+      <img src="svg_icons/volume_off-24px.svg" />
+      <img src="svg_icons/wifi-24px.svg" />
+      <span class="status-bar__battery-percent">
+        100%</span>
+      <img src="svg_icons/battery_full-24px.svg" />
+
+    </div>
+  </div>
+  <header class="appbar">
+    <div class="appbar__column">
+      <h1 class="appbar__title">Chats</h1>
+    </div>
+    <div class="appbar__column">
+      <div class="appbar__icons__search">
+        <img class="appbar__icons" src="svg_icons/new/appbar__search.svg" />
       </div>
-      <div class="status-bar__column">
-        <span class="status-bar__icons__alram">
-          <img src="svg_icons/alarm-24px.svg" />
-        </span>
-        <span class="status-bar__icons__mute">
-          <img src="svg_icons/volume_off-24px.svg" />
-        </span>
-        <span class="status-bar__icons__wifi">
-          <img src="svg_icons/wifi-24px.svg" />
-        </span>
-        <span class="status-bar__battery-percent">
-          100%
-        </span>
-        <span class="status-bar__icons__battery">
-          <img src="svg_icons/battery_full-24px.svg" />
-        </span>
+      <div class="appbar__icons__chat-plus">
+        <img class="appbar__icons" src="svg_icons/new/appbar__chat-plus.svg" />
+      </div>
+      <div class="appbar__icons__more">
+        <img class="appbar__icons" src="svg_icons/new/appbar__settings.svg" />
       </div>
     </div>
-    <header class="appbar">
-      <div class="appbar__column">
-        <h1 class="appbar__title">Chats</h1>
-      </div>
-      <div class="appbar__column">
-        <span class="appbar__icons__search">
-          <img class="appbar__icons" src="svg_icons/new/appbar__search.svg" />
-        </span>
-        <span class="appbar__icons__chat-plus">
-          <img
-            class="appbar__icons"
-            src="svg_icons/new/appbar__chat-plus.svg"
-          />
-        </span>
-        <span class="appbar__icons__more">
-          <img class="appbar__icons" src="svg_icons/new/appbar__settings.svg" />
-        </span>
-      </div>
-    </header>
-    <main>
-      <div class="chats">
-        <ul class="chats__list">
-          <li class="chats__items">
-            <div class="chats__items__column">
-              <div class="chats__avatar g-avatar">
-                <img src="images/avatar_1.png" />
-              </div>
-              <div class="chats__contents">
-                <span class="chats__username">김태영</span>
-                <span class="chats__preview">HTML 공부 중... 재밌졍</span>
-              </div>
+  </header>
+  <main>
+    <div class="chats">
+      <ul class="chats__list">
+        <li class="chats__items">
+          <div class="chats__items__column">
+            <div class="chats__avatar g-avatar">
+              <img src="images/avatar_1.png" />
             </div>
-            <div class="chats__items__column">
-              <span class="chats__timestamp">Yesterday</span>
+            <div class="chats__contents">
+              <span class="chats__username">김태영</span>
+              <span class="chats__preview">HTML 공부 중... 재밌졍</span>
             </div>
-          </li>
-        </ul>
-      </div>
-    </main>
-    <nav class="bottom-nav">
-      <ul class="bottom-nav__list">
-        <li class="bottom-nav__list__items">
-          <a href="friends.html">
-            <img
-              class="nav-user-off"
-              src="svg_icons/new/bottom__nav-user-off.svg"
-            />
-          </a>
-        </li>
-        <li class="bottom-nav__list__items">
-          <a href="index.html">
-            <img
-              class="nav-chats-off"
-              src="svg_icons/new/bottom__nav-chats-on.svg"
-            />
-          </a>
-        </li>
-        <li class="bottom-nav__list__items">
-          <a href="find.html">
-            <img
-              class="nav-search-off"
-              src="svg_icons/new/bottom__nav-search-off.svg"
-            />
-          </a>
-        </li>
-        <li class="bottom-nav__list__items">
-          <a href="more.html">
-            <img
-              class="nav-more-off"
-              src="svg_icons/new/bottom__nav-more-off.svg"
-            />
-          </a>
+          </div>
+          <div class="chats__items__column">
+            <span class="chats__timestamp">Yesterday</span>
+          </div>
         </li>
       </ul>
-    </nav>
-  </body>
+    </div>
+  </main>
+  <nav class="bottom-nav">
+    <ul class="bottom-nav__list">
+      <li class="bottom-nav__list__items">
+        <a href="friends.html">
+          <img class="nav-user-off" src="svg_icons/new/bottom__nav-user-off.svg" />
+        </a>
+      </li>
+      <li class="bottom-nav__list__items">
+        <a href="index.html">
+          <div class="nav__badge">
+            8
+          </div>
+          <img class="nav-chats-off" src="svg_icons/new/bottom__nav-chats-on.svg" />
+        </a>
+      </li>
+      <li class="bottom-nav__list__items">
+        <a href="find.html">
+          <img class="nav-search-off" src="svg_icons/new/bottom__nav-search-off.svg" />
+        </a>
+      </li>
+      <li class="bottom-nav__list__items">
+        <a href="more.html">
+          <img class="nav-more-off" src="svg_icons/new/bottom__nav-more-off.svg" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+
 </html>

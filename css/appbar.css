@@ -1,0 +1,20 @@
+/* //appbar */
+.appbar {
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  vertical-align: middle;
+}
+.appbar__title {
+  line-height: 48px;
+}
+.appbar__column {
+  display: flex;
+  justify-content: space-between;
+}
+.appbar__icons {
+  width: 24px;
+  margin-left: 12px;
+}

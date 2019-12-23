@@ -1,1 +1,34 @@
 @import "reset.css";
+@import "status-bar.css";
+@import "appbar.css";
+@import "nav-bottom.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration : none;
+  color: inherit;
+}
+
+
+body {
+  background-color:white;
+  color: #020202;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+

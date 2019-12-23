@@ -1,0 +1,31 @@
+.status-bar {
+  padding:0 20px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle; 
+  color: #656565;
+}
+.status-bar__clock {
+  font-size: 14px;
+  line-height:22px;
+  vertical-align: middle;
+}
+.status-bar__battery-percent{
+  font-size: 14px;
+  line-height:22px;
+
+  vertical-align: middle;
+}
+
+
+.status-bar img {
+  width: 14px;
+  vertical-align:middle;
+  color: #656565;
+
+}
+
+
+
+
